@@ -1,15 +1,34 @@
-# mlcoe_26
+# MLCOE TSRL 2026 Internship
 
-This is my repository for the MLCOE TSRL 2026 Internship Questions 1 and 2. I will update my process on a weekly basis, and I am open to discussing any solution that interests you.
-Feel free to leave me a ticket in the Issues.
+This repository contains my work for the MLCOE TSRL 2026 Internship exercise.
 
-Week 1/4: 
+## 📁 Repository Structure
 
-
-Week 2/4:
-
-
-Week 3/4:
+```
+Q1/          # Question 1 code and notebooks
+Q2/          # Question 2 code and notebooks
+```
 
 
-Week 4/4: 
+## 🗓️ Timeline
+
+- **Oct 10, 2025**: Repository setup
+- **Nov 14, 2025**: Part 1 codebase and report submission
+
+## 📝 Progress Updates
+
+### Week 1 (by Oct 10, 2025)
+- ✅ Repository created
+- ✅ Initial structure established
+
+### Week 2
+- [ ] Team information submitted
+- [ ] Problem analysis started
+
+### Weeks 3-8
+- [ ] Implementation in progress
+- [ ] Documentation updates
+
+## 📧 Contact
+
+Feel free to open an issue for questions or discussions. 
