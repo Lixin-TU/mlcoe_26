@@ -14,7 +14,9 @@ Q1/          # Question 1 code and notebooks
 
 Q2/          # Question 2 code and notebooks
 ./codebase/  # Codebase for question2
-./Intern_interview_2026_question_2.pdf  # Report for question 2
+./codebase_Part2/  # Codebase for question2 Part 2 (new!)
+./Intern_interview_2026_question_2.pdf  # Report for question 2 (part 1)
+./Intern_interview_2026_question_2_Part2.pdf  # Report for question 2 (part 2) (new!)
 ./Plots/      # Plots generated during analysis
 ```
     
