@@ -7,7 +7,9 @@ This repository contains my work for the MLCOE TSRL 2026 Internship exercise.
 ```
 Q1/          # Question 1 code and notebooks
 ./codebase/  # Codebase for question1
+./codebase_Part2/  # Codebase for question1 Part 2 (new!)
 ./Intern_interview_2026_question_1.pdf  # Report for question 1
+./Intern_interview_2026_question_1_P2_Lixin_Tu.pdf # Report for question 1 Part 2 (new!)
 ./Plots/      # Plots generated during analysis
 ./Results/    # Results and outputs (except to plots) from question 1
 
