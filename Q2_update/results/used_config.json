@@ -1,0 +1,49 @@
+{
+  "dataset_seed": 123,
+  "global_np_seed": 2026,
+  "global_tf_seed": 2026,
+  "experiment_seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "scenarios": [
+    {
+      "id": "sigmaV2_10_sigmaW2_10",
+      "process_var": 10.0,
+      "obs_var": 10.0,
+      "dataset_path": "dataset/benchmark_v10_w10.npz"
+    },
+    {
+      "id": "sigmaV2_10_sigmaW2_1",
+      "process_var": 10.0,
+      "obs_var": 1.0,
+      "dataset_path": "dataset/benchmark_v10_w1.npz"
+    }
+  ],
+  "time_steps": 100,
+  "state_dim": 10,
+  "init_var": 5.0,
+  "num_particles": 200,
+  "coverage_alpha": 0.05,
+  "dfphs_ess_ratio": 0.5,
+  "dpfs_alpha": 0.74,
+  "dpfot_epsilon": 0.1,
+  "dpfot_sinkhorn_iters": 50,
+  "dpfot_hmc_epsilon": 0.12,
+  "dpfot_hmc_sinkhorn_iters": 50,
+  "dpfot_hmc_steps": 2,
+  "dpfot_hmc_leapfrog_steps": 2,
+  "dpfot_hmc_step_size": 0.006,
+  "hmc_steps": 3,
+  "hmc_leapfrog_steps": 3,
+  "hmc_step_size": 0.02,
+  "ipfpf_flow_steps": 10,
+  "ipfpf_flow_step_size": 0.07,
+  "spfsm_flow_steps": 12,
+  "spfsm_flow_step_size": 0.05,
+  "spfsm_diffusion_scale": 0.6,
+  "gradnet_hidden": 64
+}

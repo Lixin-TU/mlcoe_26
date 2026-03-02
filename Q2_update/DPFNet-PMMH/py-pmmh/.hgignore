@@ -1,0 +1,15 @@
+syntax: glob
+*.pyc
+*prof
+*swp
+*orig
+*.R
+*.eps
+*.dvi
+*.pdf
+*.tex
+*.aux
+*.log
+*.pyo
+syntax: regexp
+.*\#.*\#$
