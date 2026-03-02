@@ -1,4 +1,4 @@
-## question2_polished
+## Question2_update
 
 TensorFlow/TFP reimplementation of particle-filter baselines.
 
@@ -19,7 +19,7 @@ TensorFlow/TFP reimplementation of particle-filter baselines.
 - `IPFPF` (deterministic particle flow)
 - `SPFSM` (stochastic particle flow)
 - `DPF-GradNet` (amortized transport network)
-- `DPFNet-HMC` (DPF-GradNet transport + Hamiltonian Monte Carlo)
+- `DPFNet-HMC` (**Proposed**, DPF-GradNet transport + Hamiltonian Monte Carlo)
 - `DPFNet-PMMH` (DPF-GradNet transport + pseudo-marginal Metropolis-Hastings)
 
 ### Reproducibility
@@ -54,21 +54,8 @@ From this folder:
 
 ### Outputs
 
-- `results/main_results.csv`: per-seed metrics with `scenario` column (`rmse`, `rmse_percent`, `coverage`, `coverage_percent`, `ESS`,`runtime`, `peak memory`).
-- `results/main_summary.csv`: aggregated mean/std table (includes percentage metrics).
+- `results/main_results.csv`: per-seed metrics with `scenario` column (`rmse`, `coverage`, `ESS`,`runtime`, `peak memory`).
 - `results/used_config.json`: full run config used.
-- `figures/main_figure.png`: scenario-wise comparison figure.
-- `figures/ess_over_time_sigmaV2_10_sigmaW2_10.png`: ESS bar chart every 25 timesteps with error bars.
-- `figures/ess_over_time_sigmaV2_10_sigmaW2_1.png`: ESS bar chart every 25 timesteps with error bars.
-	- Model order: `SPFSM/IPFPF/DPFS/DPFOT/DPFOT-HMC/DPF-GradNet/DPFNet-HMC (proposed)`.
-- `results/ot_tradeoff_per_seed.csv`: OT trade-off per-seed results over regularization × iterations grids.
 - `results/ot_tradeoff_summary.csv`: aggregated OT trade-off summary table.
-- `figures/ot_tradeoff_<model>_<scenario>.png`: heatmaps for RMSE, ESS, and runtime trade-offs.
-- `results/pmmh_hmc_differentiability_bias_*.csv`: per-seed and summary tables for differentiability-bias trade-off.
-- `results/pmmh_hmc_ot_regularization_*.csv`: per-seed and summary tables for OT regularization effects.
-- `results/pmmh_hmc_gradient_stability_*.csv`: per-seed and summary tables for gradient stability and variance.
-- `figures/pmmh_hmc_comparison_<scenario>.png`: one-page scenario comparison (three panels: differentiability-bias, OT regularization effects, gradient stability/variance).
-- `results/numpy_vs_tf_tfp_benchmark.csv`: benchmark runtime/throughput table over workload sizes.
 - `results/numpy_vs_tf_tfp_benchmark_summary.md`: concise interpretation and TF/TFP rationale for large evaluation counts.
-- `figures/numpy_vs_tf_tfp_benchmark.png`: runtime and speedup plot for NumPy vs TF/TFP.
 
